@@ -1,25 +1,29 @@
 programa
 {
-
+        //x = dividendo y = divisor
 
 	funcao inicio()
 	{
-		real dividendo=1.0, divisor=1.0, resultado=0.0
+		real x=1.0, y=1.0, resultado=0.0, div = 0.0
 
-		para (divisor=1;dividendo<=50; dividendo++){
-			divisor=divisor+2
-			resultado += dividendo/divisor
+		para (y=1;y<=50; y++){
+
+			div = x/y
+			resultado = resultado + div
+			x=x+2
+			
 }
 
 		escreva("O resultado é: ", resultado)
 }
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 11; 
+ * @POSICAO-CURSOR = 245; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
